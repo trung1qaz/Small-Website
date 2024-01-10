@@ -1,0 +1,178 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky shop</title>
+    <link rel="stylesheet" href="../home/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="../Home-img/Trick_or_Treat_Bag_29.webp" class="logo">
+            <nav class="nav">
+                <ul>
+                    <li><a href="../Home/index.html">HOME</a></li>
+                    <li><a href="../../Products/Main/index.html">PRODUCTS</a></li>
+                    <li><a>FEEDBACK</a></li>
+                    <li><a href="../../Contact/index.html">CONTACT</a></li>
+                </ul>
+                <!-- <div class="dropdown">
+                    <button class="dropbtn">
+                        <img src="../img/menu.png" class="menu">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../home/index.html">HOME</a></li>
+                        <a href="../products/index.html">PRODUCTS</a></li>
+                        <a href="../feedback/index.html">FEEDBACK</a></li>
+                    </div> -->
+            </nav>
+        </div>
+
+        <div class="content-menu">
+            <div class="text">
+                <h1>Spooky Shop</h1>
+                <p>Buy halloween stuff at cheapest price</p>
+            </div>
+            <div class="multi-button">
+                <button id="button1" onclick="openForm()">Login</button>
+                <a href="../Register/register.html"><button id="button2">Register</button></a>
+            </div>
+        </div>
+        <div class="c1">
+            <h1>Mua mọi vật dụng cho dịp halloween</h1>
+            <p>Halloween sắp tới rồi. Vậy còn chờ gì nữa mà không sắm cho căn nhà của bạn vài món đồ trang trí nào
+            </p>
+
+            <div class="row">
+                <div class="col">
+                    <div class="content">
+                        <!-- <a href="article-2/index.html"> -->
+                            <div class="card card1">
+                                <div class="text-block">
+                                    <h5>Pumpkin</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="content">
+                        <!-- <a href="article-3/index.html"> -->
+                            <div class="card card2">
+                                <div class="text-block">
+                                    <h5>Ghost</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="content">
+                        <!-- <a href="article-4/index.html"> -->
+                            <div class="card card3">
+                                <div class="text-block">
+                                    <h5>Candy</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="content">
+                        <!-- <a href="article-5/index.html"> -->
+                            <div class="card card4">
+                                <div class="text-block">
+                                    <h5>Costume</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="c2">
+                    <div class="col1">
+                        <h1>Vị trí của SHOP</h1>
+                        <img src="../Home-img/map.png">
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <div class="row">
+                <div class="c3">
+                    <div class="cola">
+                        <h1>Cách tích điểm đổi quà</h1>
+                        <p>
+                            Bạn có thể tích điểm để đổi các mã giảm giá cho các sản phẩm trong cửa hàng thông qua cách
+                            sau:<br>
+
+                            <br> - Tạo tài khoản trên Spooky shop<br>
+                            <br> - Tải game yêu thích nhất của bạn<br>
+                            <br> - Hoàn thành các nhiệm vụ trong game để tích điểm trên web<br>
+
+                        </p>
+
+                    </div>
+                    <div class="colb">
+                        <br>
+                        <br>
+                        <img src="../Home-img/pic.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+    <div class="row">
+        <div class="footer">
+            © 2021. Công ty TVH.
+            Địa chỉ: Số 6 Ngõ 213 Nguyễn Ngọc Vũ Cầu Giấy Hà Nội.
+            Điện thoại: 0325317419.
+            Email: spookyshop@gmail.com.
+            Chịu trách nhiệm nội dung: Đàm Thành Trung.
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="form-popup" id="myForm">
+        <div class="form-box">
+            <div class="social-icons">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/1024px-Facebook_icon_2013.svg.png">
+                <img src="https://i.pinimg.com/originals/60/6f/e3/606fe391d5a5c014d52d8694b6aa4efd.jpg">
+                <img src="https://www.freeiconspng.com/thumbs/gmail-icon/communication-gmail-icon-3.png">
+            </div>
+            <form id="log" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required><br>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Login</button>
+                <button type="button" class="submit-btn" onclick="closeForm()">Cancel</button>
+            </form>
+
+        </div>
+    </div>
+    <script>function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }</script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 40%;
+  float: left;
+}
+.navbar{
+    height: 6%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.menu{
+    width:30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.container3{
+  float: right;
+  width: 43%;
+  background-color: white;
+  border-radius: 5px;
+}
+.inside{
+  padding: 20px;
+  font-size: large;
+}
+.inside img{
+  width: 100%;
+}
